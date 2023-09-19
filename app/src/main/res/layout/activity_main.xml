@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/mainlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/logo"/>
+
+
+        <EditText
+            android:id="@+id/name"
+            android:textColor="#000000"
+            android:background="@drawable/edittext_rounded"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:textColor="#000000"
+            android:background="@drawable/edittext_rounded"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            />
+        <EditText
+            android:id="@+id/amount"
+            android:textColor="#000000"
+            android:background="@drawable/edittext_rounded"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Amount"
+            android:inputType="numberDecimal"
+            />
+
+        <Button
+            android:id="@+id/pay"
+            android:layout_marginTop="15dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="Pay"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/edittext_rounded"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weblay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webView"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Develop By: "
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBMJ Limited"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
