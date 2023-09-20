@@ -18,7 +18,7 @@ allprojects {
 		}
 	}
  ```
-> Step 2. Add the dependency to your __build.gradle__:
+> Step 2. Add the dependency to your `build.gradle`:
 ``` gradle
 dependencies {
 
@@ -26,7 +26,7 @@ dependencies {
 
 	}
 ```
-> Step 3. Add the okhttp3 dependency to your __build.gradle__:
+> Step 3. Add the okhttp3 dependency to your `build.gradle`:
 ``` gradle
 dependencies {
 
@@ -35,7 +35,7 @@ dependencies {
 	}
 ```
 # Constants for Payment
-Add the following code inside your __AppCompatActivity__:
+Add the following code inside your `AppCompatActivity`:
 ``` gradle
 
 private static final String API_KEY = "982d381360a69d419689740d9f2e26ce36fb7a50";    
@@ -45,7 +45,7 @@ private static final String REDIRECT_URL = "https://uddoktapay.com";
 private static final String CANCEL_URL = "https://uddoktapay.com";
 ```  
 # Instance Variables
-Add the following code inside your __AppCompatActivity__:
+Add the following code inside your `AppCompatActivity`:
 ``` gradle
 
 private String storedFullName;
