@@ -48,22 +48,9 @@ private static final String CANCEL_URL = "https://uddoktapay.com";
 Add the following code inside your `AppCompatActivity`:
 ``` gradle
 
-private String storedFullName;
-private String storedEmail;
-private String storedAmount;
-private String storedInvoiceId;
-private String storedPaymentMethod;
-private String storedSenderNumber;
-private String storedTransactionId;
-private String storedDate;
-private String storedFee;
-private String storedChargedAmount;
-private String storedMetaKey1;
-private String storedMetaValue1;
-private String storedMetaKey2;
-private String storedMetaValue2;
-private String storedMetaKey3;
-private String storedMetaValue3;
+private String storedFullName,storedEmail,storedAmount,storedInvoiceId,storedPaymentMethod,storedSenderNumber,storedTransactionId,
+		storedDate,storedFee,storedChargedAmount,storedMetaKey1,storedMetaValue1,storedMetaKey2,storedMetaValue2,storedMetaKey3,storedMetaValue3;
+
 ```
 # Payment Process
 Note: Use this code when the payment button is clicked:
