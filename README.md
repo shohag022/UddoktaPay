@@ -68,6 +68,12 @@ private String storedMetaValue3;
 # Payment Process
 Note: Use this code when the payment button is clicked:
 ``` gradle
+mainlay.setVisibility(View.GONE);
+weblay.setVisibility(View.VISIBLE);
+
+ String FULL_NAME = name.getText().toString();
+ String EMAIL = email.getText().toString();
+ String enteredAmount = amount.getText().toString();
 // Set your metadata values in the map
 Map<String, String> metadataMap = new HashMap<>();
 metadataMap.put("CustomMetaData1", "Meta Value 1");
